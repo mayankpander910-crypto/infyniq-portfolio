@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #ffffff;
+  --surface: #fafafa;
+  --surface-elevated: #ffffff;
+  --ink: #0a0a0a;
+  --muted: #52525b;
+  --border-subtle: #e4e4e7;
+  --border-figma: #d4d4d8;
+  --handle-fill: #c4c4cc;
+  --grid-dot: rgba(15, 23, 42, 0.065);
+}
+
+.dark {
+  --canvas: #080a0f;
+  --surface: #0f131c;
+  --surface-elevated: #141925;
+  --ink: #f8fafc;
+  --muted: #94a3b8;
+  --border-subtle: #1e2636;
+  --border-figma: #2b364c;
+  --handle-fill: #475569;
+  --grid-dot: rgba(148, 163, 184, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--canvas);
+  color: var(--ink);
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--ink);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background-color: #0072ce;
+  color: #ffffff;
+}
+
+/* Subtle studio artboard dot matrix */
+.bg-artboard {
+  background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Editorial sticky note curl shadow */
+.sticky-curl {
+  position: relative;
+  box-shadow: 4px 14px 28px -8px rgba(10, 14, 26, 0.24),
+    0 2px 5px rgba(10, 14, 26, 0.08);
+}
+
+.sticky-curl::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 45%;
+  height: 18px;
+  background: rgba(0, 0, 0, 0.18);
+  filter: blur(8px);
+  transform: rotate(4deg);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-figma);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0072ce;
+}
+
+/* Scoped exclusively to /portfolio and /portfolio/[slug] routes */
+.portfolio-experience .portfolio-3d-stage {
+  perspective: 1400px;
+  transform-style: preserve-3d;
+}
+
+.portfolio-experience .portfolio-card-shadow {
+  box-shadow: 0 22px 54px -16px rgba(10, 14, 26, 0.12),
+    0 6px 18px -4px rgba(10, 14, 26, 0.06);
+  transition: box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.portfolio-experience .portfolio-card-shadow:hover {
+  box-shadow: 0 38px 88px -16px rgba(20, 99, 255, 0.24),
+    0 16px 36px -8px rgba(10, 14, 26, 0.14);
+}
+
+@keyframes portfolioFloatSlow {
+  0%,
+  100% {
+    transform: translate3d(0, 0px, 0) rotate(var(--float-rot, 0deg));
+  }
+  50% {
+    transform: translate3d(0, -12px, 0) rotate(var(--float-rot, 0deg));
+  }
+}
+
+@keyframes portfolioBounceSubtle {
+  0%,
+  100% {
+    transform: translate3d(0, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+.portfolio-experience .animate-portfolio-float {
+  animation: portfolioFloatSlow 6.4s ease-in-out infinite;
+}
+
+.portfolio-experience .animate-portfolio-float-delayed {
+  animation: portfolioFloatSlow 7.8s ease-in-out 1.4s infinite;
+}
+
+.portfolio-experience .animate-portfolio-bounce {
+  animation: portfolioBounceSubtle 4.8s ease-in-out 0.6s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
