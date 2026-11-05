@@ -80,7 +80,7 @@ export const STUDIO_META = {
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
     id: "vraj-interior",
-    index: "",
+    index: "01",
     slug: "vraj-interior",
     client: "Vraj Interior",
     title: "Vraj Interior: Design That Shapes Everyday Living",
@@ -133,7 +133,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/vraj-hero.webp",
         alt: "Vraj Interior homepage hero design showcasing spatial grid and typography",
         caption:
-          " Homepage Hero — Asymmetric spatial layout introducing Vraj Interior's residential & commercial studio.",
+          "01 / Homepage Hero — Asymmetric spatial layout introducing Vraj Interior's residential & commercial studio.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -141,7 +141,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/vraj-about.webp",
         alt: "Vraj Interior partner credentials and About Us section layout",
         caption:
-          " Studio Credentials & Story — Client trust strip paired with full-bleed kitchen architecture and editorial narrative.",
+          "02 / Studio Credentials & Story — Client trust strip paired with full-bleed kitchen architecture and editorial narrative.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -155,7 +155,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "easyteezy",
-    index: "",
+    index: "02",
     slug: "easyteezy",
     client: "Easyteezy",
     title: "Easyteezy Trendy T-Shirts",
@@ -206,7 +206,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/easyteezy-1.webp",
         alt: "Easyteezy graphic T-shirts Meta campaign creative",
         caption:
-          "New Drops Meta Ad Creative — Multi-SKU graphic tee spotlight engineered for instant feed clarity.",
+          "01 / New Drops Meta Ad Creative — Multi-SKU graphic tee spotlight engineered for instant feed clarity.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
@@ -214,7 +214,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/easyteezy-2.webp",
         alt: "Easyteezy Summer Vibes lifestyle social media creative",
         caption:
-          "Summer Vibes Lookbook — Editorial collage balancing apparel print craft with lifestyle energy.",
+          "02 / Summer Vibes Lookbook — Editorial collage balancing apparel print craft with lifestyle energy.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
@@ -222,7 +222,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "monastery",
-    index: "",
+    index: "03",
     slug: "monastery",
     client: "Monastery",
     title: "Monastery: Where Beauty Meets Ritual",
@@ -275,7 +275,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/monastery-bloom.webp",
         alt: "Monastery Strawberry Bloom lip balm campaign creative",
         caption:
-          "Product Launch Poster — 'Strawberry Bloom' editorial creative pairing serif display type with tactile product photography.",
+          "01 / Product Launch Poster — 'Strawberry Bloom' editorial creative pairing serif display type with tactile product photography.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
@@ -283,7 +283,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/monastery-reel.webp",
         alt: "Monastery Day + Night vegan eyeliner video reel creative",
         caption:
-          "Social Reel Design — Split-frame Day + Night vegan eyeliner story creative.",
+          "02 / Social Reel Design — Split-frame Day + Night vegan eyeliner story creative.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
@@ -291,7 +291,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/monastery-grid.webp",
         alt: "Monastery four-quadrant eyeliner and lip balm beauty grid",
         caption:
-          "Editorial Grid System — Close-up texture & benefit storytelling across eyeliner and lip care.",
+          "03 / Editorial Grid System — Close-up texture & benefit storytelling across eyeliner and lip care.",
         frameType: "editorial-split",
         aspectHint: "landscape",
       },
@@ -299,7 +299,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/monastery-logo.webp",
         alt: "Monastery signature green wordmark emblem",
         caption:
-          "Brand Sign-Off — Clean botanical green identity mark anchoring campaign touchpoints.",
+          "04 / Brand Sign-Off — Clean botanical green identity mark anchoring campaign touchpoints.",
         frameType: "brand-mark",
         aspectHint: "square",
       },
@@ -313,7 +313,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "shree-maruti-associates",
-    index: "",
+    index: "04",
     slug: "shree-maruti-associates",
     client: "Shree Maruti Associates",
     title: "Shree Maruti Associates: Law with Integrity",
@@ -365,7 +365,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/maruti-hero.webp",
         alt: "Shree Maruti Associates legal defense website hero section",
         caption:
-          "Executive Hero — Authoritative dark-and-gold digital flagship with instant appointment CTA.",
+          "01 / Executive Hero — Authoritative dark-and-gold digital flagship with instant appointment CTA.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -373,7 +373,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/maruti-practice.webp",
         alt: "Shree Maruti Associates numbered Practice Areas grid",
         caption:
-          "Practice Areas Directory — Structured 01–06 compliance breakdown for effortless corporate navigation.",
+          "02 / Practice Areas Directory — Structured 01–06 compliance breakdown for effortless corporate navigation.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -381,7 +381,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/maruti-experience.webp",
         alt: "Shree Maruti Associates Why Choose Us and Working Hours section",
         caption:
-          "Institutional Trust & Schedule — Heritage credentials paired with structured consultation hours.",
+          "03 / Institutional Trust & Schedule — Heritage credentials paired with structured consultation hours.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -389,7 +389,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/maruti-timeline.webp",
         alt: "Shree Maruti Associates 4-stage legal workflow timeline",
         caption:
-          "Engagement Timeline — Visual step-by-step legal compliance roadmap.",
+          "04 / Engagement Timeline — Visual step-by-step legal compliance roadmap.",
         frameType: "browser",
         aspectHint: "wide",
       },
@@ -397,7 +397,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "simplq",
-    index: "",
+    index: "05",
     slug: "simplq",
     client: "Simplq",
     title: "Simplq: Beauty Made Simple",
@@ -448,7 +448,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/simplq-primer.webp",
         alt: "Simplq Soft Fix Primer ingredient spotlight social post",
         caption:
-          "Ingredient Education — Soft Fix Primer spotlighting Almond, Jojoba, and Rosehip botanical oils.",
+          "01 / Ingredient Education — Soft Fix Primer spotlighting Almond, Jojoba, and Rosehip botanical oils.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
@@ -456,7 +456,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         src: "/assets/work/simplq-mascara.webp",
         alt: "Simplq playful waterproof eyeliner social media promotion",
         caption:
-          "Promotional Storytelling — Playful illustrated creative highlighting smudge-free, waterproof confidence.",
+          "02 / Promotional Storytelling — Playful illustrated creative highlighting smudge-free, waterproof confidence.",
         frameType: "mobile-card",
         aspectHint: "portrait",
       },
