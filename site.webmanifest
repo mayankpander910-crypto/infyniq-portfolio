@@ -1,0 +1,15 @@
+{
+  "name": "Infyniq Solutions",
+  "short_name": "Infyniq",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#191b1a",
+  "theme_color": "#191b1a",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
